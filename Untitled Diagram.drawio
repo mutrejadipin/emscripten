@@ -32,14 +32,14 @@
         <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uu0GhZpgVCWZH_Pq3_DW-10" target="Uu0GhZpgVCWZH_Pq3_DW-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-10" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-520" y="980" width="120" height="60" as="geometry" />
+        <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-10" value="Load env variables" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uu0GhZpgVCWZH_Pq3_DW-12" target="Uu0GhZpgVCWZH_Pq3_DW-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-12" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-500" y="1110" width="80" height="80" as="geometry" />
+        <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-12" value="initialize DB &amp;amp; Redis client" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="1010" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uu0GhZpgVCWZH_Pq3_DW-14" target="Uu0GhZpgVCWZH_Pq3_DW-16">
           <mxGeometry relative="1" as="geometry" />
@@ -50,26 +50,26 @@
         <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uu0GhZpgVCWZH_Pq3_DW-14" target="Uu0GhZpgVCWZH_Pq3_DW-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-14" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-520" y="1280" width="120" height="60" as="geometry" />
+        <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-14" value="Load domains from input file and start concurrent crawling" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="1170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uu0GhZpgVCWZH_Pq3_DW-16" target="Uu0GhZpgVCWZH_Pq3_DW-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-16" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-750" y="1420" width="120" height="60" as="geometry" />
+        <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-16" value="crawl domain 1,&lt;div&gt;extract product URLs using regex&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uu0GhZpgVCWZH_Pq3_DW-18" target="Uu0GhZpgVCWZH_Pq3_DW-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-520" y="1420" width="120" height="60" as="geometry" />
+        <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-18" value="crawl domain 2 ,&lt;div&gt;extract product URLs using regex&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uu0GhZpgVCWZH_Pq3_DW-20" target="Uu0GhZpgVCWZH_Pq3_DW-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-20" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="1420" width="120" height="60" as="geometry" />
+        <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-20" value="crawl domain ..N,&lt;div&gt;extract product URLs using regex&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uu0GhZpgVCWZH_Pq3_DW-22" target="Uu0GhZpgVCWZH_Pq3_DW-28">
           <mxGeometry relative="1" as="geometry" />
@@ -91,6 +91,9 @@
         </mxCell>
         <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-28" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-720" y="1750" width="540" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uu0GhZpgVCWZH_Pq3_DW-33" value=" For Each Website, Launch Chrome&amp;nbsp;Navigate to URL &amp;amp; Handle Lazy-Loading (JS) ,&amp;nbsp;Perform Infinite Scroll to Load More Content" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="1230" width="700" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
